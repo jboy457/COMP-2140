@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AdejareTaiwoA1Q4",
+            "request": "launch",
+            "mainClass": "AdejareTaiwoA1Q4",
+            "projectName": "COMP2140_af49330d"
+        },
+        {
+            "name": "Simple Debug (Launch) - Java",
+            "type": "java",
+            "request": "launch",
+            "console": "internalConsole",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.*",
+                    "$JDK",
+                    "junit.*",
+                    "Thread"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}
