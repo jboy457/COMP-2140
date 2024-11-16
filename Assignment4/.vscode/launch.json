@@ -5,28 +5,7 @@
             "name": "AdejareTaiwoA4",
             "request": "launch",
             "mainClass": "AdejareTaiwoA4",
-            "projectName": "COMP2140_af49330d"
-        },
-        {
-            "type": "java",
-            "name": "TreeBSTTest",
-            "request": "launch",
-            "mainClass": "TreeBSTTest",
-            "projectName": "COMP2140_af49330d"
-        },
-        {
-            "type": "java",
-            "name": "TestClassList",
-            "request": "launch",
-            "mainClass": "TestClassList",
-            "projectName": "COMP2140_af49330d"
-        },
-        {
-            "type": "java",
-            "name": "AdejareTaiwoA1Q4",
-            "request": "launch",
-            "mainClass": "AdejareTaiwoA1Q4",
-            "projectName": "COMP2140_af49330d"
+            "projectName": "Assignment4_76085ee5"
         },
         {
             "name": "Simple Debug (Launch) - Java",

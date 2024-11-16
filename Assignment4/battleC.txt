@@ -1,0 +1,6 @@
+23Tree
+The quick brown fox jumps over the lazy dog.
+In this game, the player must choose their strategy wisely.
+The fox is clever and fast, while the dog is strong and loyal.
+Each action will have a different effect on the outcome.
+Victory requires a balance between offense and defense.
