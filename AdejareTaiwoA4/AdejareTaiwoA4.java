@@ -31,11 +31,10 @@ public class AdejareTaiwoA4 {
 
     public static void main(String[] args) {
         Player[] players = new Player[MAX_PLAYERS];
-        String[] argss = { "battleA.txt", "battleB.txt" };
-        if (argss.length > 1) {
+        if (args.length > 1) {
             for (int i = 0; i < MAX_PLAYERS; i++) {
                 players[i] = new Player(i + 1);
-                players[i].loadGame(argss[i]);
+                players[i].loadGame(args[i]);
             }
 
             playGame(players);

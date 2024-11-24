@@ -7,16 +7,24 @@ public class Player {
     public GameTree tree;
     public int score;
 
+    // Constructor 
     public Player(int id) {
         this.id = id;
         this.score = 0;
         tree = null;
     }
 
+    // ADD SCORE FOR USER
     public void addScore(int score) {
         this.score += score;
     }
- 
+
+    /*
+     * Loads a game by reading data from a specified file.
+     * The first line determines the tree type (BST or 23Tree),
+     * and subsequent lines are processed to add words to the tree.
+     * If the file is not found, an error message is displayed.
+     */
     public void loadGame(String fileName) {
         try {
             File file = new File(fileName);
@@ -36,6 +44,11 @@ public class Player {
         }
     }
 
+    /*
+     * Returns a GameTree based on the specified type:
+     * - "BST" for a Binary Search Tree (BST)
+     * - "23Tree" for a 2-3 Tree
+     */
     private GameTree determineTree(String type) {
         final String BST = "BST";
         final String TTT = "23Tree";

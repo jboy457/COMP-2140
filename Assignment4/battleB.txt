@@ -1,3 +1,0 @@
-23Tree
-Here we have yet another example of a test file
-This test file which is a test file as a better example

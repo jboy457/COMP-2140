@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tree23Test",
+            "request": "launch",
+            "mainClass": "Tree23Test",
+            "projectName": "Assignment4_76085ee5"
+        },
+        {
+            "type": "java",
+            "name": "Tree234Test",
+            "request": "launch",
+            "mainClass": "Tree234Test",
+            "projectName": "Assignment4_76085ee5"
+        },
+        {
+            "type": "java",
             "name": "AdejareTaiwoA4",
             "request": "launch",
             "mainClass": "AdejareTaiwoA4",
