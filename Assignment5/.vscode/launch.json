@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MST12",
+            "request": "launch",
+            "mainClass": "MST12",
+            "projectName": "Assignment5_76085ee6"
+        },
+        {
+            "type": "java",
+            "name": "MST",
+            "request": "launch",
+            "mainClass": "MST",
+            "projectName": "Assignment5_76085ee6"
+        },
+        {
+            "type": "java",
+            "name": "TestMinPQ",
+            "request": "launch",
+            "mainClass": "TestMinPQ",
+            "projectName": "Assignment5_76085ee6"
+        },
+        {
+            "name": "Simple Debug (Launch) - Java",
+            "type": "java",
+            "request": "launch",
+            "console": "internalConsole",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.*",
+                    "$JDK",
+                    "junit.*",
+                    "Thread"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}

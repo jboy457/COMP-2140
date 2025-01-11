@@ -26,7 +26,7 @@ public class TreeBSTTest {
         tree.addWord("a");
 
         System.out.println("Expected: [apple(2), banana(1), cherry(1)]");
-        System.out.print("Actual: ");
+        System. out.print("Actual: ");
         tree.print();
     }
 
